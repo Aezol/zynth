@@ -11,7 +11,9 @@ body{
   position:relative;
   width:400px;
   margin:0 auto;
+ 
 }
+
 @keyframes noise-anim{
   $steps:20;
   @for $i from 0 through $steps{
@@ -52,4 +54,21 @@ body{
   overflow:hidden;
   clip:rect(0,900px,0,0); 
   animation:noise-anim-2 3s infinite linear alternate-reverse;
+  
+ .textarea {
+   #div1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+ #div2 {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+   }
+}
 }
